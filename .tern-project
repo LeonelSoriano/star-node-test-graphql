@@ -1,0 +1,25 @@
+{
+    "ecmaVersion": 6,
+        "libs": [
+            "browser",
+        "node"
+        ],
+        "plugins": {
+            "es_modules": {},
+            "angular": {},
+            "node": {},
+            "modules": {},
+            "es_modules": {},
+            "node-express": {},
+            "module-resolver": {
+                "root": ["./src"],
+                "alias": {
+                    "test": "./test",
+                    "underscore": "lodash",
+                    "src": "./src"
+                }
+
+            }
+
+        }
+}
